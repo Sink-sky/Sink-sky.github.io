@@ -3,9 +3,8 @@ title: const语义
 date: 2019-06-04 23:27:08
 tags:
 	- Cpp
-	- C
 categories:
-	- Cpp
+	- PL
 ---
 
 执行一段非法C++代码时出现了问题

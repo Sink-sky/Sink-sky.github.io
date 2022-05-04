@@ -3,7 +3,7 @@ title: Whycpp
 date: 2019-06-13 00:29:03
 tags:
 	- Cpp
-	- Coding
+	- Idea
 categories:
 	- Coding
 ---

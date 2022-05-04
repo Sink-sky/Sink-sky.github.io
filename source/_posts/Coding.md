@@ -2,8 +2,7 @@
 title: Coding
 date: 2019-06-02 09:49:28
 tags:
-	- Coding
-	- 想法
+	- Idea
 categories:
 	- Coding
 ---
