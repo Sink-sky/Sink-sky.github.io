@@ -16,9 +16,27 @@ $CUSTOM_STYL_CONTENT = @"
 "@
 
 $STYLE_STYL_CONTENT = @"
+// Base CSS framework
+@import '../../include/style/base'
+// Helper classes & mixins
+@import '../../include/style/helper'
+// Icarus components
+@import '../../include/style/button'
+@import '../../include/style/card'
+@import '../../include/style/article'
+@import '../../include/style/navbar'
+@import '../../include/style/footer'
+@import '../../include/style/pagination'
+@import '../../include/style/timeline'
+@import '../../include/style/search'
+@import '../../include/style/codeblock'
+@import '../../include/style/widget'
+@import '../../include/style/donate'
+@import '../../include/style/plugin'
+@import '../../include/style/responsive'
 
 @import "custom"
 "@
 
 $CUSTOM_STYL_CONTENT | Out-File $THEME_STYL_PATH/$CUSTOM_STYL_NAME
-$STYLE_STYL_CONTENT | Out-File -Append $THEME_STYL_PATH/$STYLE_STYL_NAME
+$STYLE_STYL_CONTENT | Out-File $THEME_STYL_PATH/$STYLE_STYL_NAME

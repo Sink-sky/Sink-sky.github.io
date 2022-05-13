@@ -23,6 +23,9 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
         run: npm install
+      - name: Add Background Img
+        shell: pwsh
+        run: ./set_bg.ps1
       - name: Build
         run: npm run build
       - name: Deploy
