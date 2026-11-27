@@ -60,3 +60,5 @@ exclude: null
 ignore: null
 theme: icarus
 toc: true
+sitemap:
+  path: sitemap.xml
