@@ -1,7 +1,8 @@
 # Version of the configuration file
-version: 4.0.0
-# Icarus theme variant, can be "default" or "cyberpunk"
+version: 7.0.0
+# Icarus theme variant, can be "default", "cyberpunk" or "m3e"
 variant: default
+appearance: light
 # Path or URL to the website's logo
 logo: /img/logo.png
 # Page metadata configurations
@@ -42,7 +43,7 @@ head:
         title: 
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
-        type: blog
+        type:
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
         url: 
@@ -64,8 +65,6 @@ head:
         twitter_id: 
         # Twitter Site (twitter:site)
         twitter_site: 
-        # Google+ profile link (deprecated)
-        google_plus: 
         # Facebook admin ID
         fb_admins: 
         # Facebook App ID
@@ -225,11 +224,11 @@ widgets:
         # Author name
         author: Sinksky
         # Author title
-        author_title: Programer
+        author_title: Programmer
         # Author's current location
         location: GuangZhou China
         # URL or path to the avatar image
-        avatar: /img/avatar.png
+        avatar: /img/mine.webp
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar

@@ -1,10 +1,10 @@
 title: Sinksky
 subtitle: ''
-description: ''
+description: '记录 C++、Python、游戏后端与开发工具的实践和思考。'
 keywords: null
 author: Sinksky
 language: zh-CN
-timezone: ''
+timezone: Asia/Shanghai
 url: https://sinksky.com
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
@@ -31,15 +31,14 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+syntax_highlighter: highlight.js
 highlight:
-  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -60,8 +59,4 @@ include: null
 exclude: null
 ignore: null
 theme: icarus
-deploy:
-  type: git
-  repo: https://github.com/Sink-sky/Sink-sky.github.io
-  branch: master
 toc: true

@@ -1,0 +1,17 @@
+.is-2-column {
+    background-image: url("../img/FF.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+    .is-2-column {
+        background-image: url("../img/FF-mobile.webp");
+    }
+}

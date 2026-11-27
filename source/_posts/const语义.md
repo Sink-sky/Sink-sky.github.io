@@ -1,13 +1,18 @@
 ---
-title: const语义
+title: C 与 C++ 中的 const 语义
 date: 2019-06-04 23:27:08
-tags:
-	- Cpp
+description: '一份关于 const、常量折叠和编译器行为的早期实验记录。'
 categories:
-	- PL
+  - PL
+tags:
+  - Cpp
 ---
 
-执行一段非法C++代码时出现了问题
+执行一段非法 C++ 代码时出现了问题。
+
+<!-- more -->
+
+## 实验代码与输出
 
 ```c++
 #include<iostream>
@@ -35,6 +40,8 @@ After:
 0x6ffe44 0x6ffe44
 100 1
 ```
+
+## 观察与分析
 
 地址`&a`和`p`是相等的，然而`a`和`*p`的值却不相同。原因在于C++编译器在编译时会采用一种叫做变量折叠的技术。 
 
