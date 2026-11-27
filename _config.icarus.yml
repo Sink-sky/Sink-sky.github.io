@@ -49,7 +49,7 @@ head:
         url: 
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: 
+        image: /img/share-cover.jpg
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
         site_name: 
@@ -60,7 +60,7 @@ head:
         # You should leave this blank for most of the time
         description: 
         # Twitter card type (twitter:card)
-        twitter_card: 
+        twitter_card: summary_large_image
         # Twitter ID (twitter:creator)
         twitter_id: 
         # Twitter Site (twitter:site)
@@ -92,7 +92,7 @@ head:
         publisher_logo: 
         # Page images (optional)
         # You should leave this blank for most of the time
-        image: 
+        image: /img/share-cover.jpg
     # Additional HTML meta tags in an array
     meta:
         # Meta tag specified in <attribute>=<value> style
